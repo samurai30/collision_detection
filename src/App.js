@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import BasicScene from "./Components/Scenes/BasicScene";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component{
+    render() {
+        const css = {
+            marginTop:'1%'
+        };
+
+        return (
+            <div style={css}>
+                <div className="d-flex justify-content-center">
+                    <h3>COLLISION DETECTION & AVOIDANCE</h3>
+                </div>
+                <div className="d-flex justify-content-center">
+                    <BasicScene/>
+                </div>
+            </div>)
+    }
 }
 
 export default App;
