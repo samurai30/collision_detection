@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import * as BABYLON from "babylonjs";
+import 'babylonjs-loaders';
 
 export type SceneEventArgs = {
     engine: BABYLON.Engine,
