@@ -85,6 +85,7 @@ class BasicScene extends React.Component{
             }
 
             alpha += 0.01;
+            plan2.rotation.y += Math.PI / 4
             balloon1.position.y += Math.cos(alpha) / 10;
             balloon2.position.y = balloon1.position.y;
             balloon3.position.y = balloon1.position.y;
@@ -108,7 +109,7 @@ class BasicScene extends React.Component{
         };
        return (
            <div style={css}>
-                <SceneBasic width={1280} height={720} onSceneMount={this.onSceneMount} style={css} adaptToDeviceRatio={true}/>
+                <SceneBasic width={1920} height={1080} onSceneMount={this.onSceneMount} style={css} adaptToDeviceRatio={true}/>
             </div>
        );
     }

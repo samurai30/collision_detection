@@ -21,7 +21,7 @@ class SkullScene extends React.Component{
         scene.enablePhysics(new BABYLON.Vector3(0,-10,0), new BABYLON.AmmoJSPlugin(undefined,ammo));
 
         // Create ground collider
-        let ground = BABYLON.Mesh.CreateGround("ground1", 6, 6, 2, scene);
+        let ground = BABYLON.Mesh.CreateGround("ground1", 20, 20, 2, scene);
         ground.physicsImpostor = new BABYLON.PhysicsImpostor(ground, BABYLON.PhysicsImpostor.BoxImpostor, { mass: 0, friction: 0.5, restitution: 0.7 }, scene);
 
         // Import mesh and set colliders
@@ -72,7 +72,7 @@ class SkullScene extends React.Component{
         };
 
         return (<div>
-            <SceneCar  width={1280} height={720} onSceneMount={this.onSceneMount} style={css} adaptToDeviceRatio={true}/>
+            <SceneCar  width={800} height={800} onSceneMount={this.onSceneMount} style={css} adaptToDeviceRatio={true}/>
         </div>)
     }
 }
