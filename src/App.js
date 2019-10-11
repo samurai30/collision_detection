@@ -13,7 +13,7 @@ class App extends React.Component{
         return (
             <div style={css}>
                 <div className="d-flex justify-content-center">
-                    <h3>COLLISION DETECTION & AVOIDANCE</h3>
+                    <h3>CG DEMO SP182205</h3>
                 </div>
                 <div className="d-flex justify-content-center">
                     <SkullScene/>

@@ -6,6 +6,7 @@ import type {SceneEventArgs} from "../AppEngine";
 class BasicScene extends React.Component{
     onSceneMount = (e: SceneEventArgs) => {
         const { canvas, engine,scene } = e;
+
         var camera = new BABYLON.ArcRotateCamera("Camera", 1, 0.8, 70, new BABYLON.Vector3(5, 0, 0), scene);
         camera.attachControl(canvas, true);
 

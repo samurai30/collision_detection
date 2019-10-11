@@ -1,0 +1,78 @@
+Exporter version: 6.2.0, Blender version: 2.80 (sub 75)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		texture directory   :  C:\Users\suyog\Desktop\collision_detection\public\models\
+	Python World class constructor completed
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of mesh:  Apple
+		processing begun of material:  Material
+			WARNING: unsupported node type(ShaderNodeValToRGB) will trigger baking
+			WARNING: unsupported node type(ShaderNodeBump) will trigger baking
+			WARNING: Roughness channel baking required, but not possible, ignored
+			processing texture apple_paint
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture apple_paint
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+			processing texture apple_paint
+				texture type:  bumpTexture, mapped using: "UVMap"
+			bake time:  0 min, 0.009 secs
+		num positions      :  4377
+		num normals        :  4377
+		num tangents       :  0
+		num uvs            :  8754
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  21696
+	processing begun of mesh:  KnifeHandle
+		processing begun of material:  Material.001
+			WARNING: unsupported node type(ShaderNodeValToRGB) will trigger baking
+			WARNING: unsupported node type(ShaderNodeBump) will trigger baking
+			WARNING: Roughness channel baking required, but not possible, ignored
+			processing texture knife_paint
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture knife_paint
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+			processing texture knife_paint
+				texture type:  bumpTexture, mapped using: "UVMap"
+			bake time:  0 min, 0.007 secs
+		num positions      :  6239
+		num normals        :  6239
+		num tangents       :  0
+		num uvs            :  12478
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  29952
+	processing begun of mesh:  KnifeBlade
+		processing begun of material:  Material.002
+			WARNING: unsupported node type(ShaderNodeValToRGB) will trigger baking
+			WARNING: unsupported node type(ShaderNodeBump) will trigger baking
+			WARNING: Roughness channel baking required, but not possible, ignored
+			processing texture knife_paint
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture knife_paint
+				texture type:  value not meaningful 2, mapped using: "UVMap"
+			processing texture knife_paint
+				texture type:  bumpTexture, mapped using: "UVMap"
+			bake time:  0 min, 0.004 secs
+		Custom split normals with tangents being used
+		num positions      :  316
+		num normals        :  316
+		num tangents       :  316
+		num uvs            :  632
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  468
+========= Writing of JSON file started =========
+	writing mesh:  Apple
+	writing mesh:  KnifeHandle
+	writing mesh:  KnifeBlade
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 1.1 secs
